@@ -1,4 +1,4 @@
-@CapitalShip_HostAddress = http://localhost:5265
+@CapitalShip_HostAddress = http://localhost:5013
 
 GET {{CapitalShip_HostAddress}}/weatherforecast/
 Accept: application/json
