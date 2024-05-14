@@ -4,7 +4,7 @@
 
 The step by step updates I made are enumerated below:
 
-- The configuration of the database was the first step, and I abstracted all the logic from the controllers in order to keep them pure and simple, including the validation of the request body. Fluent validation was used to sanitize and check the candidates' and questions' data.
+- The configuration of the database was the first step, and I abstracted all the logic from the controllers in order to keep them lean and simple, including the validation of the request body. Fluent validation was used to sanitize and check the candidates' and questions' data.
 
 - `Enum` was used for the question and gender types. This allowed a seamless integration with the FluentValidation validators which were registered in the `Services` and injected via an auto validation.
 
