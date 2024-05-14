@@ -12,4 +12,6 @@ The step by step updates I made are enumerated below:
 
 - The `IOptions<>` interface was handy in the access of enviroment variables. This was pivotal as  access to `Conatiners` were dynamic for services.
 
+- The API endpoint for querying questions by type takes a query parameter, `questionType`, which can be any of the valid question types. If ths parameter is not empty, quaetions that have the same type are returned as a response.
+
 I used the Azure cosmos db NoSQL Emulator to test the API endpoints.
